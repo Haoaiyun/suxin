@@ -1,0 +1,160 @@
+/*导航留言建议开始*/
+.message-title{
+    width:123px;
+    height:60px;
+    background: red;
+    position: absolute;
+    top:79px;
+    right:110px;
+    transition:all 0.5s linear;/*添加动画效果*/
+    z-index:999;/*定位元素之间存在层级关系，z-index用来调整层级*/
+}
+.message-title-list{
+    display: block;
+}
+.message-title-list li{
+    display:block;
+    border-bottom:1px solid #ccd5db;
+}
+/*导航留言建议结束*/
+
+/*留言建议内容开始*/
+.message{
+    width:100%;
+    height:819px;
+    background:#f2f2f2;
+    padding:30px 0;
+    z-index: 66;
+}
+.message-bd{
+    width:1170px;
+    height:759px;
+    /*background:#f2f2f2;*/
+    /*padding-left:15px;*/
+    /*padding-right:15px;*/
+}
+/*留言建议内容左边开始*/
+.message-left{
+    width:780px;
+    /*height:759px;*/
+    background: #fff;
+    float:left;
+    padding:30px 20px;
+}
+.message-left-list{
+    width:100%;
+    height:100%;
+    margin-bottom:20px;
+}
+.message-left-item{
+    padding:10px 0;
+    border-bottom:1px solid #ccd5db;
+}
+.media{
+    display:flex;
+    width:720px;
+    /*height:123px;*/
+    /*border-bottom:1px solid #ccd5db;*/
+    /*position:relative;*/
+    /*float:left;*/
+
+
+}
+#user{
+    width:46px;
+    height:53px;
+    margin-left:0;
+
+}
+#user i{
+    font-size:36px;
+    color:#a3afb7;
+}
+.media-body{
+    width:660px;
+    margin-bottom:5px;
+}
+.name{
+    font-size:14px;
+    font-weight:400;
+    display:block;
+}
+.time{
+    font-size:11px;
+    font-weight:600;
+    color:#a3afb7;
+    float: right;
+}
+.media-body p{
+    font-size:14px;
+    font-weight:400;
+    color:#76838f;
+    margin-bottom:11px;
+    line-height:23px;
+    margin-left:8px;
+}
+.message-content{
+    padding:20px;
+    font-size:14px;
+    border:1px solid #e4eaec;
+    background:#f3f7f9;
+    display:block;
+    border-radius: 5px;
+}
+/*留言建议内容左边结束*/
+/*留言建议内容右边开始*/
+.message-right{
+    width:360px;
+    height:464px;
+    background: #fff;
+    float:right;
+    padding:25px;
+}
+.right-name{
+    border:1px solid #ccd5db;
+    padding:8px 10px;
+    margin-bottom:20px;
+    display: flex;
+}
+.right-name input{
+    border:0;
+    font-size:14px;
+    color:#76838f;
+    margin-left:5px;
+}
+.mesg{
+    height:124px;
+}
+.yanzheng{
+    padding:0;
+    margin-left:5px;
+}
+.right-name span{
+    padding:6px 15px;
+    font-size:14px;
+    /*font-weight:300;*/
+    /*line-height:1;*/
+    color:#76838f;
+    text-align: center;
+    background-color: #f3f7f9;
+    border:1px solid #e4eaec;
+    margin-right:-1px;
+}
+.tijiao{
+    padding:0;
+}
+.right-name button{
+    display:block;
+    width:100%;
+    color:#fff;
+    background-color: #62a8ea;
+    border-color: #62a8ea;
+    margin-bottom:0;
+    /*text-align: center;*/
+    line-height: 30px;
+    font-weight:300;
+    cursor: pointer;
+    border:0;
+}
+/*留言建议内容右边结束*/
+/*留言建议内容结束*/
